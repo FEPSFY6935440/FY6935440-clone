@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body style="background-color:#FFFFFF; margin: 0 10%;">
+
+  <img src="WebBanner.png" alt="Banner" width="100%" style="max-width:1200px; display:block; margin:auto;">
+  <h1 style="font-family:calibri;"><b>ENG0018 Computer Laboratory 2025/26</b></h1>
+  <h2 style="font-family:calibri;">Student URN: 6935440</h2>
+  <hr class="short-hr">
+  <h2 style="font-family:calibri;"><b>Conference Paper: Can Hydrogen save the Internal Combustion Engine, or are EVs inevitable?</b></h2>
+
+  <hr class="short-hr">
+  <style>
+    table {
+      margin-top: 10px;
+      font-family: calibri, sans-serif;
+      border-collapse: collapse;
+      width: auto;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    
+    p.ex1 {
+      font-size: 16px;
+      margin-right: 10%;
+      margin-left: 0%
+    }
+
+    p.ex2 {
+      font-size: 16px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    p.ex3 {
+      font-size: 12px;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 6px;
+      margin-bottom: 6px;
+      line-height: 1.2;
+    }
+
+    h1, h2, h3 {
+      margin-left: 10%;
+      font-weight: bold;
+    }
+
+    .mySlides {display:none;}
+
+    .short-hr {
+      width: 80%;
+      margin: 10px auto;
+      border: 1px solid black;
+    }
+
+    .abstract-hr {
+      width: 60%;
+      margin-left: 20%;
+      border: 1px solid black;
+    }
+
+    button {
+      display: block;
+      margin: 10px 10%;
+      padding: 8px 16px;
+    }
+
+    input[type="text"] {
+      display: block;
+      margin: 10px 10%;
+      padding: 6px;
+      width: calc(80% - 12px);
+    }
+
+    .toc-box {
+      float: left;
+      width: 300px;
+      margin: 0 20px 20px 0;
+      padding-left: 10%;
+      box-sizing: border-box;
+    }
+
+    .abstract-block {
+      margin-left: 0;
+      overflow: auto;
+    }
+    
+    .abstract-block p {
+      margin-left: 0px;
+    }
+
+    .abstract-block h3 {
+      margin-left: 0px;
+    }
+
+    .video-wrapper {
+      margin: 0 10%;
+    }
+    
+    .video-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    #References p {
+      margin-top: 2px !important;
+      margin-bottom: 2px !important;
+      line-height: 1.2 !important;
+    }
+    
+  </style>
+
+  <div>
+    <div class="toc-box">
+      <!Table of Contents>
+      <table>
+        <tr>
+          <th><h4><b>Table of Contents</b></h4></th>
+        </tr>
+        <tr>
+          <td><a href="#Abstract">Abstract</a></td>
+        </tr>
+        <tr>
+          <td><a href="#Introduction">Introduction</a></td>
+        </tr>
+        <tr>
+          <td><a href="#Main Article">Main Article</a></td>
+        </tr>
+        <tr>
+          <td><a href="#Conclusion">Conclusion</a></td>
+        </tr>
+        <tr>
+          <td><a href="#Video">Video</a></td>
+        </tr>
+        <tr>
+          <td><a href="#References">References</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="abstract-block">
+      <h3 id="Abstract">Abstract</h3>
+      <p id="Abstract_InText" class="ex1">
+The developed world is shifting away from petrol/diesel vehicles and towards clean transport in hopes of fulfilling Paris Agreement obligations and curbing air pollution in dense cities. With private vehicles being the most common form of transportation worldwide, EVs (electric vehicles) have led this shift, but recent hostility to them from politicians due to Net-Zero costs puts their future in jeopardy. Hydrogen, as a fuel source, can be adapted into ICEs (internal combustion engines), while producing near-zero emissions – as done by BMW and Yamaha. In practice though, hydrogen infrastructure is more expensive than charging infrastructure (~$2m vs ~ $100k per station), and the lack of mass-produced hydrogen ICEs make a comparison to traditional ICEs impossible. Hydrogen simply is not as cost-effective as EVs, let alone petrol/diesel, and investment into hydrogen for vehicles are as fuel cells, and not ICEs. The ICE cannot be saved by hydrogen fuel.
+      </p>
+    </div>
+  </div>
+
+  <hr class="short-hr">
+    
+  <h3 id="Introduction">Introduction</h3>
+    <p id="Introduction_InText" class="ex2">
+The future of fossil-fuel powered combustion engines is looking bleaker than ever. Countries are moving towards EVs, introducing stricter environmental standards and legislature, but there has been a rise in anti-Net-Zero sentiments by people and governments. By looking into why EVs are being rejected by some, and the impact of fossil-fuel ICEs (Internal Combustion Engines) on air quality and air pollution, the case of hydrogen to be an attractive and clean alternative becomes more evident.
+    </p>
+
+  <hr class="short-hr">
+  
+  <h3 id="Main Article">Main Article</h3>
+    <p id="Main_Article_InText" class="ex2">
+Cars are a leading source of greenhouse gas emissions, with road transport accounting for 20% of EU CO2 emissions, and passenger cars making up 62% of those emissions <a href="#ref_EP2019">(European Parliament, 2019)</a>. With the knowledge that we have of CO2 emissions being the main contributor to climate change, it is imperative that their output is reduced to ensure countries can keep under the 2°C limit from the Paris Climate Agreement. It’s not just about greenhouse gases though, road vehicles are a major contributor to air pollution. With Delhi, for example, recording around 18,600 deaths per year due to air pollution, and cars being responsible for 64% of the air pollution according to <a href="#ref_Goyal">(Goyal et al. (2013, p. 1))</a>. This reveals the obvious, a reduction in cars that pollute in a necessity for reducing climate change and improving air quality. 
+    </p>
+  <p>&nbsp;</p> 
+    <p id="MAI2" class="ex2">
+EVs are most adopted alternative to traditional ICE cars, leading the way in phasing out ICE cars from roads across the world, having a significant adoption rate, with the UK, for example, having 382,000 EVs sold in 2024 <a href="#ref_GOVUK">(GOV.UK, 2025)</a>.
+    </p>
+  <p>&nbsp;</p>
+    <p id="MAI3" class="ex2">
+  However, opposition to climate action by UK newspapers have reached record highs; 42 editorials against climate action in 2023 vs <5 in 2020 <a href="#ref_PG">(PressGazette, 2024)</a>. The [promised] reversal of environmental-friendly policies have surged by governments across the world. Examples of this include the current Trump administration in the US reversing a 2021 executive order aiming for 50% of new vehicles sold to be EVs <a href="#ref_TG2025">(The Guardian, 2025)</a>, or the high-polling ReformUK party stating they will scrap the 2050 UK Net-Zero emissions target <a href="#ref_RUK">(ReformUK, 2025)</a>. This presents a volatile future for EVs and a market segment that relies on subsidies and government incentives if it wants to be seen as a viable and competitive alternative to diesel or petrol cars to increase adoption. 
+    </p>
+  <p>&nbsp;</p> 
+    <p id="MAI4" class="ex2">
+  Another issue facing EVs are that consumer habits and usage patterns are different since charging the battery to a satisfactory level requires a much more prolonged period compared to filling up the tank of an ICE car. To accommodate this and compensate for the convenience loss of quickly refuelling an ICE car, houses and residential/commercial parking need to be retrofitted with chargers and charging infrastructure should be in similar abundance to petrol stations. However, this becomes much more difficult to achieve with inconsistent and uncertain investment into the required infrastructure to make it plausible for the average person to reliably use an EV without worry, let alone convince hesitant ICE car owners to make the switch to a technology that may not present many convincing upfront apparent benefits. EVs are also more expensive upfront compared to their ICE counterparts making them seem less attractive unless consumers are incentivised by policies and legislature <a href="#ref_V4B">(V4B, 2024)</a>. 
+    </p>
+  <p>&nbsp;</p> 
+    <p id="MAI5" class="ex2">
+  A dilemma becomes rather apparent. EVs are being pushed into the market, but a changing political climate that could potentially stall necessary infrastructure and consumer hesitation prevents widespread adoption, all while humanity must move away from more CO2, NOX, and SO2 being released into the atmosphere in a bid to clean the air in cities and reduce global warming. 
+    </p>
+  <p>&nbsp;</p> 
+    <p id="MAI6"class="ex2">
+  This opens the door for hydrogen to enter the debate on whether it’s a viable alternative fuel-source to traditional fossil fuels to avoid having to fully invest in EV infrastructure. Hydrogen is a “high-quality fuel” with “high efficiency and near-zero or zero emissions at the point of use” <a href="#ref_H2023">(Hosseini (2023, p. 6))</a> since the only product released is water vapour. This makes it perfect to address concern of air pollution and emissions that plague traditional ICEs. Furthermore, hydrogen compatible ICEs can be created by modifying existing ICEs in production and adapting them, allowing manufacturers to modify existing supply chains and lines rather than developing entirely new ones for EV production, reducing upfront costs in manufacturing. Adding to this, hydrogen powered ICEs do not suffer from the same issue that EVs do in needing changes in how people use their car, making them a lot more appealing to those who are hesitant to switch to EVs due to the change it may bring to how they approach using their car. 
+    </p>
+  <p>&nbsp;</p> 
+    <p id="MAI7" class="ex2">
+  On the contrary though, hydrogen infrastructure requires its own significant investment to become main	stream like petrol and diesel, with a hydrogen station requiring $1.9m in capital, but can be incorporated into existing petrol stations, reducing their costs compared to new stations <a href="#ref_H2024">(Haush, 2024)</a>. Furthermore, hydrogen in vehicles is a distant future, with there being no existing technology that would meet the US DoE system requirements currently. This obviously then drags hydrogen vehicles down into the same limitations as EVs, where they require significant investment and R&D into making cars powered by them competitive with traditional ICEs.
+    </p>
+
+  <hr class="short-hr">
+
+  <h3 id="Conclusion">Conclusion</h3>
+    <p id="Conclusion_InText" class="ex2">
+The prospect of hydrogen on paper seems like a promising solution. They reap the benefits of already existing technologies like ICEs, not succumbing to high infrastructure costs and consumer habit challenges that EVs do, while still offering low to 0 emissions, making them seem like the best of both worlds. The reality is that they end up suffering many of the same pitfalls that EVs do, but on a far greater scale considering their technology is far less mature. They still need heavy investment, expenditure and are more expensive at the moment, making it painfully clear that we are best off focused on making EVs cheaper rather than starting all over again with hydrogen.
+    </p>
+
+  <hr class="short-hr">
+
+  <h3 id="Video">Video</h3>
+  <div class="video-wrapper"> 
+    <div class="video-container">  
+      <video src = "ENG0018 Presentation.mp4" controls></video>
+    </div>
+  </div>
+
+  <hr class="short-hr">
+
+  <h3 id="References">References</h3>
+    <p class="ex3" id="ref_EP2019">
+      European Parliament (2019) CO2 emissions from cars: facts and figures (infographics) Available at: 
+      <a href="https://www.europarl.europa.eu/topics/en/article/20190313STO31218/co2-emissions-from-cars-facts-and-figures-infographics#:~:text=Passenger%20cars%20are%20a%20major,emissions%20from%20EU%20road%20transport." target="_blank">
+      https://www.europarl.europa.eu/topics/en/article/20190313STO31218/co2-emissions-from-cars-facts-and-figures-infographics#:~:text=Passenger%20cars%20are%20a%20major,emissions%20from%20EU%20road%20transport.
+      </a> (Accessed: 5th December 2025). 
+    </p>
+    
+    <p class="ex3" id="ref_Goyal">
+      Goyal, P. et al (2013) 'Vehicular emission inventory of criteria pollutants in Delhi' [Version 1 May 2013]. Available at: 
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3664745/#:~:text=It%20has%20been%20observed%20that,31%2C373%20lane%20kilometer%20in%202009." target="_blank">
+      https://pmc.ncbi.nlm.nih.gov/articles/PMC3664745/#:~:text=It%20has%20been%20observed%20that,31%2C373%20lane%20kilometer%20in%202009.
+      </a> (Accessed: 5th December 2025). 
+    </p>
+    
+    <p class="ex3" id="ref_GOVUK">
+      GOV.UK (2025) New £63 million boost for Britain's electric vehicle revolution. Available at: 
+      <a href="https://www.gov.uk/government/news/new-63-million-boost-for-britains-electric-vehicle-revolution." target="_blank">
+      https://www.gov.uk/government/news/new-63-million-boost-for-britains-electric-vehicle-revolution.
+      </a> (Accessed: 5th December 2025). 
+    </p>
+    
+    <p class="ex3" id="ref_PG">
+      PressGazette (2024) UK press stepped up editorials opposing climate action in 2023. Available at: 
+      <a href="https://pressgazette.co.uk/publishers/nationals/uk-press-editorials-opposing-climate-action-2023/." target="_blank">
+      https://pressgazette.co.uk/publishers/nationals/uk-press-editorials-opposing-climate-action-2023/.
+      </a> (Accessed: 5th December 2025). 
+    </p>
+    
+    <p class="ex3" id="ref_TG2025">
+      TheGuardian (2025) Trump revokes Biden order that had set 50% electric vehicles target for 2030. Available at: 
+      <a href="https://www.theguardian.com/us-news/2025/jan/20/trump-executive-order-electric-vehicles." target="_blank"> 
+      https://www.theguardian.com/us-news/2025/jan/20/trump-executive-order-electric-vehicles.
+      </a> (Accessed: 5th December 2025). 
+    </p>
+    
+    <p class="ex3" id="ref_RUK">
+      ReformUK (2024) Our Contract With You. Available at: 
+      <a href="https://www.reformparty.uk/policies." target="_blank"> 
+      https://www.reformparty.uk/policies.
+      </a> (Accessed: 5th December 2025).
+    </p>
+    
+    <p class="ex3" id="ref_V4B">
+      V4B (2024) Barriers to the Adoption of Electric Vehicles. Available at: 
+      <a href="https://www.v4b.co.uk/news/barriers-to-the-adoption-of-electric-vehicles/#:~:text=Relying%20solely%20on%20public%20charging,to%20traditional%20combustion%20engine%20vehicles." target="_blank">
+      https://www.v4b.co.uk/news/barriers-to-the-adoption-of-electric-vehicles/#:~:text=Relying%20solely%20on%20public%20charging,to%20traditional%20combustion%20engine%20vehicles. 
+      </a> (Accessed: 5th December 2025).
+    </p>
+    
+    <p class="ex3" id="ref_H2023">
+      Hosseini, S. E. (2023) Fundamentals of Hydrogen Production and Utilization in Fuel Cell Systems. Elsevier Inc.
+    </p>
+    
+    <p class="ex3" id="ref_H2024">
+      Haush (2024) Hydrogen versus Electric Powered Cars Overall Costs. Available at: 
+      <a href="https://haush.co.uk/hydrogen-versus-electric-powered-cars-overall-costs/." target="_blank">
+      https://haush.co.uk/hydrogen-versus-electric-powered-cars-overall-costs/.
+      </a> (Accessed: 5th December 2025).
+    </p>
+
+  <!-- //////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
+  <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Last commit time display -->
+<div class="ex3" id="last-updated">Loading last update time...</div>
+<!-- Verify Button -->
+<button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
+    Verify Last Modified Time
+</button>
+<script>
+    async function getLastUpdatedTime() {
+        const username = 'FEPSFY6935440';
+        const repo = 'FY6935440';
+       
+        const url = `https://api.github.com/repos/${username}/${repo}/commits`;
+        try {
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/vnd.github.v3+json',
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
+            }
+            const commits = await response.json();
+            if (commits && commits.length > 0) {
+                const lastCommitDate = new Date(commits[0].commit.committer.date);
+               
+                // Displaying the time on load
+                document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
+            } else {
+                document.getElementById('last-updated').innerText = 'No commits found in the repository.';
+            }
+        } catch (error) {
+            console.error('Error fetching the last updated time:', error);
+            document.getElementById('last-updated').innerText = 'Error fetching update time. Please check the repository details.';
+        }
+    }
+    // Function to verify the last update time by re-fetching it from the API
+    async function verifyLastUpdatedTime() {
+        document.getElementById('last-updated').innerText = 'Verifying...';
+        await getLastUpdatedTime();
+        alert("Last modified time has been successfully verified from GitHub API.");
+    }
+    // Initial load to display the time on page load
+    window.onload = getLastUpdatedTime;
+</script>
+
+
+ <!-- //////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ////////////////////////////// Word count function ////////////////////////////// -->
+  <!-- //////////////////////////////////////////////////////////////////////////////// -->
+<!-- Placeholder for total word count -->
+<p class="ex3" id="totalWordCount"></p>
+<script>
+  // Function to calculate and display word count for a specified section
+  function displayWordCount(sectionId, outputId) {
+    // Get the text content from the specified section
+    const text = document.getElementById(sectionId).textContent;
+    // Split text into words based on spaces and filter out any empty strings
+    const wordArray = text.trim().split(/\s+/);
+    // Count the words
+    const wordCount = wordArray.length;
+    // Return the word count for summing purposes
+    return wordCount;
+  }
+  // Function to calculate and display total word count from selected sections
+  function displayTotalWordCount() {
+    // Calculate word count for each section and accumulate the total
+    const IntroductionCount = displayWordCount("Introduction_InText");
+    const MAICount = displayWordCount("Main_Article_InText");
+    const MAI2Count = displayWordCount("MAI2");
+    const MAI3Count = displayWordCount("MAI3");
+    const MAI4Count = displayWordCount("MAI4");
+    const MAI5Count = displayWordCount("MAI5");
+    const MAI6Count = displayWordCount("MAI6");
+    const MAI7Count = displayWordCount("MAI7");
+    const ConclusionInText = displayWordCount("Conclusion_InText");
+    // Calculate the sum of all selected sections
+    const totalWordCount = IntroductionCount + MAICount + MAI2Count + MAI3Count + MAI4Count + MAI5Count + MAI6Count + MAI7Count + ConclusionInText;
+    // Display the total word count
+    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+  }
+  // Run the function for specific sections and display total count when the page loads
+  window.addEventListener("load", displayTotalWordCount);
+</script>
+    
+</body>
+      
+</html>
