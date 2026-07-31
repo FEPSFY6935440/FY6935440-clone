@@ -367,7 +367,7 @@ The prospect of hydrogen on paper seems like a promising solution. They reap the
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + MAICount + MAI2Count + MAI3Count + MAI4Count + MAI5Count + MAI6Count + MAI7Count + ConclusionInText;
     // Display the total word count
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+    document.getElementById("totalWordCount").innerText = `Total word count (excl. Abstract: ${totalWordCount}`;
   }
   // Run the function for specific sections and display total count when the page loads
   window.addEventListener("load", displayTotalWordCount);
